@@ -33,7 +33,7 @@ p {
   line-height: 30px;
 }
 img {
-  border-radius: 4px;
+  border-radius: 8px;
 }
 footer {
   margin: 60px 0;
@@ -46,13 +46,11 @@ footer .contact-box {
 footer .contact-box p {
   margin: 0;
 }
-footer .email-link {
+footer .email-link,
+.shecodes-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
-}
-footer .email-link:hover {
-  color: var(--branding-color);
 }
 footer .email-link:hover {
   color: var(--branding-color);
@@ -110,13 +108,20 @@ footer .social-links a:hover {
 .content-container {
   padding: 100px 20px;
 }
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
+  text-decoration: none;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  color: var(--branding-color);
+  background: white;
 }
 .btn-branding-outline {
   border-radius: 4px;
@@ -126,6 +131,12 @@ footer .social-links a:hover {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: white;
+}
+
 .project-description {
   padding: 120px 60px;
 }
@@ -139,6 +150,16 @@ footer .social-links a:hover {
   padding: 0 10px;
   line-height: 25px;
   display: inline-block;
+}
+.grow {
+  transition: 1s ease;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
 }
 @media (max-width: 900px) {
   h1 {
