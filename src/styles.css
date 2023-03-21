@@ -33,7 +33,7 @@ p {
   line-height: 30px;
 }
 img {
-  border-radius: 50%;
+  border-radius: 8px;
 }
 footer {
   margin: 60px 0;
@@ -141,7 +141,8 @@ footer .social-links a:hover {
   padding: 120px 60px;
 }
 .logo {
-  max-height: 40px;
+  max-height: 65px;
+  border-radius: 50%;
 }
 .active {
   color: var(--branding-color) !important;
