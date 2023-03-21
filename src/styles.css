@@ -33,7 +33,7 @@ p {
   line-height: 30px;
 }
 img {
-  border-radius: 8px;
+  border-radius: 50%;
 }
 footer {
   margin: 60px 0;
