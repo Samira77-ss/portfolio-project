@@ -113,6 +113,7 @@ footer .social-links a:hover {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
+
   color: white;
   text-decoration: none;
   font-size: 18px;
@@ -122,6 +123,7 @@ footer .social-links a:hover {
 
 .btn-branding:hover {
   color: var(--branding-color);
+  border: 1px solid var(--branding-color);
   background: white;
 }
 .btn-branding-outline {
